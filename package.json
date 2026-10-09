@@ -1,0 +1,28 @@
+{
+  "name": "x-auto-scheduler",
+  "version": "0.1.0",
+  "description": "Scheduled X (Twitter) post queue manager and tech log drafter for regular developer posting",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "x-scheduler": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "twitter",
+    "x-api",
+    "scheduler",
+    "launchd",
+    "social-automation"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "private": true
+}
